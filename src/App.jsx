@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/sections/Navbar';
+import Home from './components/sections/Home';
+import Sponsored from './components/sections/Sponsored';
+import AboutUs from './components/sections/AboutUs';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,8 +11,11 @@ function App() {
   return (
     <>
      <div className='w-screen bg-linear-to-l from-[#181E41] to-[#984D38]'>
-      <div className='px-30.5 flex flex-col items-center w-360 mx-auto h-screen pt-2.25'>
+      <div className='px-30.5 flex flex-col items-center max-w-360 mx-auto h-auto pt-2.25'>
         <Navbar/>
+        <Home/>
+        <Sponsored/>
+        <AboutUs/>
      </div>
      </div>
     </>
