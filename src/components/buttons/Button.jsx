@@ -1,9 +1,21 @@
-import React from 'react'
-
-const Button = ({label, style}) => {
-  return (
-    <button className={`${style} py-2.5 px-5 hover:opacity-85 rounded-[10px] bg-linear-to-b from-[#B75CFF] to-[#671AE4]`}>{label}</button>
-  )
+const varientStyle = {
+    gradient: "hover:opacity-85 rounded-[10px] bg-linear-to-tr from-[#671AE4] to-[#B75CFF]",
+    default: "py-2.5 px-5 hover:opacity-85 rounded-[10px] bg-[#FFFFFF1A]",
+    gradientBorder: "p-[1px] rounded-[10px] bg-linear-to-tr from-[#671AE4] to-[#B75CFF]"
 }
 
-export default Button
+const Button = ({ label, style, OnClick, id, varient = "default"}) => {
+ 
+  return (
+    <>
+       <button
+         name = {label}
+         onClick = {OnClick}
+         key = {id}
+         className={`${varientStyle[varient]} ${style}`}
+       >{label}</button>
+    </>
+  );
+};
+
+export default Button;

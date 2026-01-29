@@ -15,10 +15,8 @@ const home = () => {
             {homeData.description}
           </p>
           <div className="flex gap-5 mt-7.5 text-[20px] text-[#FFFFFF] font-medium leading-[100%]">
-            <Button label="Explor Now" />
-            <button className="py-2.5 px-5 hover:opacity-85 rounded-[10px] bg-[#FFFFFF1A]">
-              {homeData.btnLabel}
-            </button>
+            <Button label="Explor Now" varient="gradient" style="px-5 py-2.5"/>
+            <Button label= {homeData.btnLabel}/>
           </div>
         </div>
         <div className="gap-27.75 flex">

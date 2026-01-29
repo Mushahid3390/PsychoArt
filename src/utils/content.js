@@ -14,6 +14,115 @@ import EthereumLogo from "../assets/icons/EthereumLogo.svg";
 import psychoArt from "../assets/icons/PsychoArt.svg";
 import search from "../assets/icons/search.svg";
 
+// Collections Image
+import Card1 from "../assets/images/Card1.svg"
+import Card2 from "../assets/images/Card2.svg"
+import Card3 from "../assets/images/Card3.svg"
+import Card4 from "../assets/images/Card4.svg"
+import Card5 from "../assets/images/Card5.svg"
+import Card6 from "../assets/images/Card6.svg"
+import Card7 from "../assets/images/Card7.svg"
+import Card8 from "../assets/images/Card8.svg"
+import Card9 from "../assets/images/Card9.svg"
+
+export const collectionsContent = {
+  sectionName: "Collections",
+  secDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  btns: [
+    {
+      name: "Art",
+      style: "",
+    },
+    {
+      name: "Sport",
+      style: "",
+    },
+    {
+      name: "Photography",
+      style: "",
+    },
+    {
+      name: "Pattern",
+      style: "",
+    },
+  ],
+  cards: [
+    {
+      section: "Art",
+      img: Card1,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+    {
+      section: "Art",
+      img: Card2,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+    {
+      section: "Art",
+      img: Card3,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+    {
+      section: "Sport",
+      img: Card4,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+    {
+      section: "Sport",
+      img: Card5,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+    {
+      section: "Sport",
+      img: Card6,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+    {
+      section: "Photography",
+      img: Card7,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+      
+    },
+    {
+      section: "Photography",
+      img: Card8,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+    {
+      section: "Photography",
+      img: Card9,
+      owner: "@Johny",
+      billType: "Current Bid",
+      bill: "0.005 ETH",
+      productName: "Yellow Painting",
+    },
+  ],
+};
+
 export const icons = [
   { src: binanceLogo, alt: "Binance_logo", style: "aspect-5/1" },
   { src: EthereumLogo, alt: "EthereumLogo", style: "aspect-16/5" },
@@ -25,7 +134,7 @@ export const navbarContent = {
     psychoArt,
     alt: "logo",
   },
-  icons: { magnifyingGlass: search, alt: "searcgIcon" },
+  icons: { magnifyingGlass: search, alt: "searchIcon" },
   navigations: [
     { name: "Collections", style: "" },
     { name: "Features", style: "" },
@@ -68,10 +177,12 @@ export const homeData = {
 };
 
 export const aboutUsContent = {
-  section: "About Us",
+  section: "",
   sectionDescription:
     " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   tittle: "Get Popular NFT",
   Description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.",
 };
+
+
