@@ -5,6 +5,7 @@ import Sponsored from "./components/sections/Sponsored";
 import AboutUs from "./components/sections/AboutUs";
 import Collections from "./components/sections/Collections";
 import FeaturedArtwork from "./components/sections/FeaturedArtwork";
+import AskedQuestion from "./components/sections/AskedQuestion";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <AboutUs />
           <Collections />
           <FeaturedArtwork />
+          <AskedQuestion/>
         </div>
       </div>
     </>
