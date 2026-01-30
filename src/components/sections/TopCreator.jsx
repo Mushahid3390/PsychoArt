@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import Card from "../cards/Card";
 import Creator1 from "../../assets/images/Creator1.svg";
 import Creator2 from "../../assets/images/Creator2.svg";
@@ -31,7 +31,7 @@ const topCreatorContents = {
 };
 
 const TopCreator = () => {
-  return (
+ return (
     <div className="w-full h-screen flex flex-col mt-50">
       <div className="text-center w-full flex flex-col items-center">
         <h2 className="font-bold text-[40px] text-white">Top Creator</h2>
@@ -46,7 +46,7 @@ const TopCreator = () => {
         })}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default TopCreator;
+export default TopCreator
