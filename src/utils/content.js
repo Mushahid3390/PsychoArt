@@ -25,6 +25,35 @@ import Card7 from "../assets/images/Card7.svg"
 import Card8 from "../assets/images/Card8.svg"
 import Card9 from "../assets/images/Card9.svg"
 
+export const FeaturedArtworkContent = {
+    cards: [
+        {
+          section: "Art",
+          img: Card1,
+          owner: "@Johny",
+          billType: "Current Bid",
+          bill: "0.005 ETH",
+          productName: "Yellow Painting",
+        },
+        {
+          section: "Art",
+          img: Card2,
+          owner: "@Johny",
+          billType: "Current Bid",
+          bill: "0.005 ETH",
+          productName: "Yellow Painting",
+        },
+        {
+          section: "Art",
+          img: Card3,
+          owner: "@Johny",
+          billType: "Current Bid",
+          bill: "0.005 ETH",
+          productName: "Yellow Painting",
+        },
+    ]
+};
+
 export const collectionsContent = {
   sectionName: "Collections",
   secDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
