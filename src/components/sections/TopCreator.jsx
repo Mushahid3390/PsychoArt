@@ -32,7 +32,7 @@ const topCreatorContents = {
 
 const TopCreator = () => {
  return (
-    <div className="w-full h-screen flex flex-col mt-50">
+    <div className="w-full flex flex-col mt-50">
       <div className="text-center w-full flex flex-col items-center">
         <h2 className="font-bold text-[40px] text-white">Top Creator</h2>
         <p className="max-w-105.75 font-medium text-[20px] text-[#FFFFFF80] leading-[120%] mt-2.5">
