@@ -4,13 +4,13 @@ import { aboutUsContent } from "../../utils/content";
 
 const AboutUs = () => {
   return (
-    <div className="mt-37.5 mb-100 flex flex-col gap-7.5">
+    <div className="mt-37.5 flex flex-col gap-7.5">
       <div>
-        <h2 className="font-bold text-[40px] leading-[100%] text-center text-[#FFFFFF]">
+        {aboutUsContent.section && <h2 className="font-bold text-[40px] leading-[100%] text-center text-[#FFFFFF]">
           {aboutUsContent.section}
-        </h2>
+        </h2>}
         <p className="font-medium mt-2.5 text-[20px] leading-[120%] text-center text-[#FFFFFF80]">
-         {aboutUsContent.sectionDescription}
+          {aboutUsContent.sectionDescription}
         </p>
       </div>
 

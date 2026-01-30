@@ -4,6 +4,7 @@ import Navbar from './components/sections/Navbar';
 import Home from './components/sections/Home';
 import Sponsored from './components/sections/Sponsored';
 import AboutUs from './components/sections/AboutUs';
+import Collections from './components/sections/Collections';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Home/>
         <Sponsored/>
         <AboutUs/>
+        <Collections/>
      </div>
      </div>
     </>
