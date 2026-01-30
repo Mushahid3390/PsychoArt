@@ -5,6 +5,7 @@ import Sponsored from "./components/sections/Sponsored";
 import AboutUs from "./components/sections/AboutUs";
 import Collections from "./components/sections/Collections";
 import FeaturedArtwork from "./components/sections/FeaturedArtwork";
+import TopCreator from "./components/sections/TopCreator";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <AboutUs />
           <Collections />
           <FeaturedArtwork />
+          <TopCreator />
         </div>
       </div>
     </>
