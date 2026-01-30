@@ -6,6 +6,7 @@ import AboutUs from "./components/sections/AboutUs";
 import Collections from "./components/sections/Collections";
 import FeaturedArtwork from "./components/sections/FeaturedArtwork";
 import TopCreator from "./components/sections/TopCreator";
+import AskedQuestion from "./components/sections/AskedQuestion";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Collections />
           <FeaturedArtwork />
           <TopCreator />
+          <AskedQuestion/>
         </div>
       </div>
     </>
