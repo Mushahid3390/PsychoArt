@@ -40,7 +40,7 @@ const TopCreator = () => {
         </p>
       </div>
 
-      <div className="w-full h-screen flex gap-3.75">
+      <div className="w-full flex gap-3.75">
         {topCreatorContents.cards.map((card, idx) => {
           return <Card card={card} id={idx} varient={"profile"} />;
         })}
