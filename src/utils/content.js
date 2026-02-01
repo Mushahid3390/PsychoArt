@@ -25,6 +25,35 @@ import Card7 from "../assets/images/Card7.svg"
 import Card8 from "../assets/images/Card8.svg"
 import Card9 from "../assets/images/Card9.svg"
 
+export const FeaturedArtworkContent = {
+    cards: [
+        {
+          section: "Art",
+          img: Card1,
+          owner: "@Johny",
+          billType: "Current Bid",
+          bill: "0.005 ETH",
+          productName: "Yellow Painting",
+        },
+        {
+          section: "Art",
+          img: Card2,
+          owner: "@Johny",
+          billType: "Current Bid",
+          bill: "0.005 ETH",
+          productName: "Yellow Painting",
+        },
+        {
+          section: "Art",
+          img: Card3,
+          owner: "@Johny",
+          billType: "Current Bid",
+          bill: "0.005 ETH",
+          productName: "Yellow Painting",
+        },
+    ]
+};
+
 export const collectionsContent = {
   sectionName: "Collections",
   secDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -183,6 +212,21 @@ export const aboutUsContent = {
   tittle: "Get Popular NFT",
   Description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.",
+};
+
+export const askedQuestionContent = {
+  sectionTitle: "Frequently Asked Question",
+  SectionDesceiption: "Wanna Ask Something",
+  questions: [
+    "Lorem ipsum ipsum ?",
+    "Lorem ipsum ipsum ?",
+    "Lorem ipsum ipsum ?",
+    "Lorem ipsum ipsum ?",
+    "Lorem ipsum ipsum ?",
+    "Lorem ipsum ipsum ?",
+    "Lorem ipsum ipsum ?",
+    "Lorem ipsum ipsum ?",
+  ],
 };
 
 
