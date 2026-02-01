@@ -3,3 +3,6 @@
 @import "tailwindcss";
 
 
+@theme {
+    --breakpoint-xl: 1309px;
+}
