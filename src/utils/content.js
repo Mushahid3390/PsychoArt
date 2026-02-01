@@ -25,6 +25,10 @@ import Card7 from "../assets/images/Card7.svg"
 import Card8 from "../assets/images/Card8.svg"
 import Card9 from "../assets/images/Card9.svg"
 
+import youtube from "../assets/icons/youtube.svg";
+import discord from "../assets/icons/discord.svg";
+import instagram from "../assets/icons/instagram.svg";
+
 export const FeaturedArtworkContent = {
     cards: [
         {
@@ -228,5 +232,68 @@ export const askedQuestionContent = {
     "Lorem ipsum ipsum ?",
   ],
 };
+
+export const footerContent = {
+  projectDetails: {
+    projectName: psychoArt,
+    projectOverView:
+      "The best NFT marketplace website in the world and feel your experience in selling or buy our work",
+  },
+  about: [
+    {
+      page: "Product",
+      Link: "#",
+    },
+    {
+      page: "Resource",
+      Link: "#",
+    },
+    {
+      page: "Term & Condition",
+      Link: "#",
+    },
+    {
+      page: "FAQ",
+      Link: "#",
+    },
+  ],
+  company: [
+    {
+      page: "Our Team",
+      Link: "#",
+    },
+    {
+      page: "Our Partners",
+      Link: "#",
+    },
+    {
+      page: "Privacy & Policy",
+      Link: "#",
+    },
+    {
+      page: "Features",
+      Link: "#",
+    },
+  ],
+  contact: {
+    phoneNumber: "+012 3456789",
+    email: "adorableprogrammer@gmail.com",
+    socialMedias: [
+      {
+        plateform: youtube,
+        Link: "#",
+      },
+      {
+        plateform: discord,
+        Link: "#",
+      },
+      {
+        plateform: instagram,
+        Link: "#",
+      },
+    ],
+  },
+};
+
 
 
