@@ -295,5 +295,7 @@ export const footerContent = {
   },
 };
 
-
+export const creator = {
+  name: "Zarror",
+}
 
