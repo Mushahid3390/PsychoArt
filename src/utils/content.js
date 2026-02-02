@@ -6,12 +6,12 @@ import Banner5 from "../assets/images/Banner5.svg";
 import Banner6 from "../assets/images/Banner6.svg";
 
 // icons
-import binanceLogo from "../assets/icons/BinanceLogo.svg";
-import blockChain from "../assets/icons/BlockChain.svg";
-import EthereumLogo from "../assets/icons/EthereumLogo.svg";
+import binanceLogo from "../assets/icons/binanceLogo.svg";
+import blockChain from "../assets/icons/blockChain.svg";
+import ethereumLogo from "../assets/icons/bthereumLogo.svg";
 
 //Navbar Content
-import psychoArt from "../assets/icons/PsychoArt.svg";
+import psychoArt from "../assets/icons/psychoArt.svg";
 import search from "../assets/icons/search.svg";
 
 // Collections Image
@@ -158,7 +158,7 @@ export const collectionsContent = {
 
 export const icons = [
   { src: binanceLogo, alt: "Binance_logo", style: "aspect-5/1" },
-  { src: EthereumLogo, alt: "EthereumLogo", style: "aspect-16/5" },
+  { src: ethereumLogo, alt: "EthereumLogo", style: "aspect-16/5" },
   { src: blockChain, alt: "Blockchain", style: "aspect-33/5" },
 ];
 
