@@ -25,6 +25,10 @@ import Card7 from "../assets/images/Card7.svg"
 import Card8 from "../assets/images/Card8.svg"
 import Card9 from "../assets/images/Card9.svg"
 
+import youtube from "../assets/icons/youtube.svg";
+import discord from "../assets/icons/discord.svg";
+import instagram from "../assets/icons/instagram.svg";
+
 export const FeaturedArtworkContent = {
     cards: [
         {
