@@ -7,6 +7,7 @@ import Collections from "./components/sections/Collections";
 import FeaturedArtwork from "./components/sections/FeaturedArtwork";
 import TopCreator from "./components/sections/TopCreator";
 import AskedQuestion from "./components/sections/AskedQuestion";
+import CollectNft from "./components/sections/CollectNft";
 import Footer from "./components/sections/Footer";
 import CopyRight from "./components/sections/CopyRight";
 
@@ -23,10 +24,11 @@ function App() {
           <FeaturedArtwork />
           <TopCreator />
           <AskedQuestion/>
+          <CollectNft/>
           <Footer/>
           <CopyRight/>
         </div>
-      </div>
+      </div>  
     </>
   );
 }

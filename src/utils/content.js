@@ -210,7 +210,7 @@ export const homeData = {
 };
 
 export const aboutUsContent = {
-  section: "",
+  section: "About Us",
   sectionDescription:
     " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   tittle: "Get Popular NFT",
@@ -298,4 +298,3 @@ export const footerContent = {
 export const creator = {
   name: "Zarror",
 }
-
