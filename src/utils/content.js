@@ -210,7 +210,7 @@ export const homeData = {
 };
 
 export const aboutUsContent = {
-  section: "",
+  section: "About Us",
   sectionDescription:
     " Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   tittle: "Get Popular NFT",
@@ -233,3 +233,68 @@ export const askedQuestionContent = {
   ],
 };
 
+export const footerContent = {
+  projectDetails: {
+    projectName: psychoArt,
+    projectOverView:
+      "The best NFT marketplace website in the world and feel your experience in selling or buy our work",
+  },
+  about: [
+    {
+      page: "Product",
+      Link: "#",
+    },
+    {
+      page: "Resource",
+      Link: "#",
+    },
+    {
+      page: "Term & Condition",
+      Link: "#",
+    },
+    {
+      page: "FAQ",
+      Link: "#",
+    },
+  ],
+  company: [
+    {
+      page: "Our Team",
+      Link: "#",
+    },
+    {
+      page: "Our Partners",
+      Link: "#",
+    },
+    {
+      page: "Privacy & Policy",
+      Link: "#",
+    },
+    {
+      page: "Features",
+      Link: "#",
+    },
+  ],
+  contact: {
+    phoneNumber: "+012 3456789",
+    email: "adorableprogrammer@gmail.com",
+    socialMedias: [
+      {
+        plateform: youtube,
+        Link: "#",
+      },
+      {
+        plateform: discord,
+        Link: "#",
+      },
+      {
+        plateform: instagram,
+        Link: "#",
+      },
+    ],
+  },
+};
+
+export const creator = {
+  name: "Zarror",
+}

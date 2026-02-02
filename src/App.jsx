@@ -8,7 +8,6 @@ import FeaturedArtwork from "./components/sections/FeaturedArtwork";
 import TopCreator from "./components/sections/TopCreator";
 import AskedQuestion from "./components/sections/AskedQuestion";
 import CollectNft from "./components/sections/CollectNft";
-import AskedQuestion from "./components/sections/AskedQuestion";
 import Footer from "./components/sections/Footer";
 import CopyRight from "./components/sections/CopyRight";
 
