@@ -6,6 +6,8 @@ import AboutUs from "./components/sections/AboutUs";
 import Collections from "./components/sections/Collections";
 import FeaturedArtwork from "./components/sections/FeaturedArtwork";
 import TopCreator from "./components/sections/TopCreator";
+import AskedQuestion from "./components/sections/AskedQuestion";
+import CollectNft from "./components/sections/CollectNft";
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
           <Collections />
           <FeaturedArtwork />
           <TopCreator />
+          <AskedQuestion/>
+          <CollectNft/>
         </div>
-      </div>
+      </div>  
     </>
   );
 }
