@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex  flex-col gap-5">
         <h1>
           <img
-            className=""
+            className="w-26.75 h-7.5"
             src={footerContent.projectDetails.projectName}
             atl="logo"
           />
@@ -36,7 +36,7 @@ const Footer = () => {
       {footerContent?.company && (
         <div className="flex flex-col gap-5">
           <h1>Company</h1>
-          {footerContent.about.map((page, idx) => {
+          {footerContent.company.map((page, idx) => {
             return (
               <Link
                 className="font-medium text-[15px] text-[#FFFFFF80]"
