@@ -6,8 +6,8 @@ import Banner5 from "../assets/images/Banner5.svg";
 import Banner6 from "../assets/images/Banner6.svg";
 
 // icons
-import binanceLogo from "../assets/icons/binanceLogo.svg";
 import blockChain from "../assets/icons/blockChain.svg";
+import binanceLogo from "../assets/icons/binanceLogo.svg";
 import ethereumLogo from "../assets/icons/ethereumLogo.svg";
 
 //Navbar Content
