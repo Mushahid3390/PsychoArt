@@ -1,3 +1,7 @@
+//Navbar Content
+import psychoArt from "../assets/icons/psychoArt.svg";
+import search from "../assets/icons/search.svg";
+
 import Banner1 from "../assets/images/Banner1.svg";
 import Banner2 from "../assets/images/Banner2.svg";
 import Banner3 from "../assets/images/Banner3.svg";
@@ -10,9 +14,6 @@ import blockChain from "../assets/icons/blockChain.svg";
 import binanceLogo from "../assets/icons/binanceLogo.svg";
 import ethereumLogo from "../assets/icons/ethereumLogo.svg";
 
-//Navbar Content
-import psychoArt from "../assets/icons/psychoArt.svg";
-import search from "../assets/icons/search.svg";
 
 // Collections Image
 import Card1 from "../assets/images/Card1.svg"
