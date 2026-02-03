@@ -1,15 +1,16 @@
 import React from "react";
 import Button from "../buttons/Button";
 
-const Card = ({ card, id, varient = "default" }) => {
+const Card = ({ card, id, varient = "default", active, setActive }) => {
   return (
     <>
       {varient === "profile" ? (
         <div
+          id={id}
           key={id}
-          className="w-97.25 flex flex-col bg-[#00000040] items-center mt-7.5 h-131.25 rounded-[10px]"
+          className={`lg:w-97.25 flex flex-col ${active ? "bg-[#8b8ea0]" : "bg-[#00000040]"} items-center mt-7.5 lg:h-131.25 rounded-[10px]`}
         >
-          <div className="w-full h-65.25 rounded-[10px]  relative">
+          <div className="w-full sm:h-65.25 rounded-[10px]  relative">
             <img
               className="w-full rounded-[10px] object-center object-cover h-full"
               src={card.CardImg}
@@ -20,36 +21,38 @@ const Card = ({ card, id, varient = "default" }) => {
             />
           </div>
 
-          <div className=" w-full mb-10.5 px-6.5 flex flex-col items-center">
-            <h2 className="font-bold text-[20px] mt-16 text-white">
+          <div className=" w-full lg:mb-10.5 p-2 lg:px-6.5 flex flex-col">
+            <h2 className="font-bold text-center text-[18px] sm:text-[20px] mt-16 text-white">
               {card.creatorName}
             </h2>
-            <p className="font-medium text-[15px] text-center mt-2.5 text-[#FFFFFF80]">
+            <p className="font-medium text-[16px] text-center mt-2.5 mb-5.5 text-[#FFFFFF80]">
               {card.description}
             </p>
             <Button
+              id={id}
               label={"+ Follow"}
-              varient="gradient"
-              style={"w-full font-medium text-[20px] mt-5.5 py-2.5 text-white"}
+              varient={`${active ? "gradientBoder" : "gradient"}`}
+              style={`w-full font-medium text-[16px] sm:text-[20px] py-1.5 sm:py-2.5  ${!active ? "text-white" : ""}`}
+              OnClick={setActive}
             />
           </div>
-           
         </div>
       ) : (
         <div
+          id={id}
           key={id}
-          className="w-97.25 h-148.75 p-6.5 bg-[#00000040] flex flex-col rounded-[10px]"
+          className={`lg:w-97.25 lg:h-148.75 p-3 lg:p-6.5 ${active ? "bg-[#8b8ea0]" : "bg-[#00000040]"} flex flex-col rounded-[10px]`}
         >
           <img
             src={card.img}
-            className="w-84.25 h-95] rounded-[10px] mb-5 object-center object-cover"
+            className="lg:w-84.25 md:h-50 lg:h-95 rounded-[10px] mb-5 object-center object-cover"
           />
           <div className="flex justify-between mb-5.75 w-full">
             <div>
-              <p className="font-medium text-[20px] mb-2.5 text-[#FFFFFF80]">
+              <p className="font-medium text-[18px] sm:text-[20px] mb-2.5 text-[#FFFFFF80]">
                 {card.owner}
               </p>
-              <p className="font-bold text-[20px] text-white">
+              <p className="font-bold text-[18px] sm:text-[20px] text-white">
                 {card.productName}
               </p>
             </div>
@@ -57,13 +60,17 @@ const Card = ({ card, id, varient = "default" }) => {
               <p className="font-medium text-[15px] text-[#FFFFFF80]">
                 {card.billType}
               </p>
-              <p className="font-bold text-[20px] text-white">{card.bill}</p>
+              <p className="font-bold text[18px] sm:text-[20px] text-white">
+                {card.bill}
+              </p>
             </div>
           </div>
           <Button
+            id={id}
             label={"Place a bid"}
-            varient="gradient"
-            style={"w-full font-medium text-[20px] py-2.5 text-white"}
+            varient={`${active ? "gradientBoder" : "gradient"}`}
+            style={`w-full font-medium sm:text-[20px] py-1.5 sm:py-2.5 ${!active ? "text-white" : ""}`}
+            OnClick={setActive}
           />
         </div>
       )}

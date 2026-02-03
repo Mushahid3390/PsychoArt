@@ -1,14 +1,8 @@
-import Banner1 from "../assets/images/Banner1.svg";
-import Banner2 from "../assets/images/Banner2.svg";
-import Banner3 from "../assets/images/Banner3.svg";
-import Banner4 from "../assets/images/Banner4.svg";
-import Banner5 from "../assets/images/Banner5.svg";
-import Banner6 from "../assets/images/Banner6.svg";
-
+import HeroImage from "../assets/images/HeroImage.svg";
 // icons
 import binanceLogo from "../assets/icons/binanceLogo.svg";
 import blockChain from "../assets/icons/blockChain.svg";
-import ethereumLogo from "../assets/icons/bthereumLogo.svg";
+import ethereumLogo from "../assets/icons/ethereumLogo.svg";
 
 //Navbar Content
 import psychoArt from "../assets/icons/psychoArt.svg";
@@ -80,78 +74,96 @@ export const collectionsContent = {
     },
   ],
   cards: [
-    {
+    { 
+      id: "1",
       section: "Art",
       img: Card1,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
     {
+      id: "2",
       section: "Art",
       img: Card2,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
     {
+      id: "3",
       section: "Art",
       img: Card3,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
     {
+      id: "4",
       section: "Sport",
       img: Card4,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
     {
+      id: "5",
       section: "Sport",
       img: Card5,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
     {
+      id: "6",
       section: "Sport",
       img: Card6,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
     {
+      id: "7",
       section: "Photography",
       img: Card7,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
       
     },
     {
+      id: "8",
       section: "Photography",
       img: Card8,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
     {
+      id: "9",
       section: "Photography",
       img: Card9,
       owner: "@Johny",
       billType: "Current Bid",
       bill: "0.005 ETH",
       productName: "Yellow Painting",
+      active: false,
     },
   ],
 };
@@ -199,14 +211,7 @@ export const homeData = {
     },
   ],
   btnLabel: "Sell NFT",
-  images: [
-    { src: Banner1, alt: "Banner1" },
-    { src: Banner3, alt: "Banner3" },
-    { src: Banner4, alt: "Banner4" },
-    { src: Banner2, alt: "Banner2" },
-    { src: Banner5, alt: "Banner5" },
-    { src: Banner6, alt: "Banner6" },
-  ],
+  image: HeroImage,
 };
 
 export const aboutUsContent = {

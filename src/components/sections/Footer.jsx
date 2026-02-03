@@ -4,8 +4,8 @@ import { footerContent } from "../../utils/content";
 
 const Footer = () => {
   return (
-    <div className="mt-50 flex gap-32.75 *:font-bold *:text-[20px] *:text-white w-full">
-      <div className="flex  flex-col gap-5">
+    <div className="lg:mt-50 mt-15 grid grid-cols-1 lg:grid-flow-col sm:grid-cols-2 gap-10 sm:gap-15 lg:gap-32.75 *:font-bold *:text-[20px] *:text-white w-full">
+      <div className="flex flex-col gap-5">
         <h1>
           <img
             className=""
@@ -23,7 +23,7 @@ const Footer = () => {
           {footerContent.about.map((page, idx) => {
             return (
               <Link
-                className="font-medium text-[15px] text-[#FFFFFF80]"
+                className="font-medium hover:text-white text-[15px] text-[#FFFFFF80]"
                 to={page.Link}
               >
                 {page.page}
@@ -39,7 +39,7 @@ const Footer = () => {
           {footerContent.about.map((page, idx) => {
             return (
               <Link
-                className="font-medium text-[15px] text-[#FFFFFF80]"
+                className="font-medium hover:text-white text-[15px] text-[#FFFFFF80]"
                 to={page.Link}
               >
                 {page.page}
@@ -52,19 +52,23 @@ const Footer = () => {
       {footerContent?.contact && (
         <div className="flex flex-col gap-5">
           <h1>Contact</h1>
-          <p className="font-medium text-[15px] text-[#FFFFFF80]">{footerContent.contact.phoneNumber}</p>
-          <p className="font-medium text-[15px] text-[#FFFFFF80]">{footerContent.contact.email}</p>
-          {footerContent.contact.socialMedias?.length >0 && (
-              <div className="flex gap-10">
-                {footerContent.contact.socialMedias.map((media, idx) => {
-                  return (
-                    <Link key={idx} to={media.Link}>
-                      <img src={media.plateform} alt="logo" />
-                    </Link>
-                  );
-                })}
-              </div>
-            )}
+          <p className="hover:text-white font-medium text-[15px] text-[#FFFFFF80]">
+            {footerContent.contact.phoneNumber}
+          </p>
+          <p className="hover:text-white font-medium text-[15px] text-[#FFFFFF80]">
+            {footerContent.contact.email}
+          </p>
+          {footerContent.contact.socialMedias?.length > 0 && (
+            <div className="flex gap-10">
+              {footerContent.contact.socialMedias.map((media, idx) => {
+                return (
+                  <Link key={idx} to={media.Link}>
+                    <img className="" src={media.plateform} alt="logo" />
+                  </Link>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
     </div>

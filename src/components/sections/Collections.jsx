@@ -5,6 +5,7 @@ import { collectionsContent } from "../../utils/content";
 
 const Collections = () => {
   const [activeBtn, setActiveBtn] = useState(collectionsContent.btns[0].name);
+  const [cards, setCards] = useState(collectionsContent.cards);
   const artLen = collectionsContent.cards.filter((card) => {
     return card.section === "Art";
   }).length;
@@ -25,6 +26,16 @@ const Collections = () => {
     Pattern: patternLen,
   };
 
+  const handleBidActive = (target) => {
+    const collectionCards = cards.map((card) => {
+      if (card.id == target.id) {
+        card.active = !card.active;
+        return card;
+      }
+      return card;
+    });
+    setCards(collectionCards);
+  };
 
   const handleSetActiveBtn = (event) => {
     const btn = event.target.name;
@@ -32,12 +43,12 @@ const Collections = () => {
   };
 
   return (
-    <div className="flex flex-col mt-50 gap-7.5 w-full ">
+    <div className="flex flex-col mt-15 lg:mt-50 gap-7.5 w-full ">
       <div className="mx-auto text-center">
-        <h2 className="font-bold text-[40px] mb-2.5 text-[#FFFFFF]">
+        <h2 className="font-bold text-[25px] sm:text-[40px] mb-2.5 text-[#FFFFFF]">
           {collectionsContent.sectionName}
         </h2>
-        <p className="font-medium text-[20px] leading-[120%] text-[#FFFFFF80] max-w-105.75">
+        <p className="font-medium sm:text-[20px] leading-[120%] text-[#FFFFFF80] sm:max-w-105.75">
           {collectionsContent.secDesc}
         </p>
       </div>
@@ -52,7 +63,7 @@ const Collections = () => {
                   varient={activeBtn === btn.name ? "gradient" : "default"}
                   OnClick={handleSetActiveBtn}
                   style={
-                    "text-[#FFFFFF] w-full px-[70px] py-[5px] rounded-[5px]!"
+                    "text-[#FFFFFF] w-full px-full py-[2px] sm:py-[5px] text-[12px]! rounded-[5px]!"
                   }
                   id={idx}
                 />
@@ -62,13 +73,22 @@ const Collections = () => {
         })}
       </div>
 
-      <div className="w-full flex gap-3.75">
-        {collectionsContent.cards
+      <div className="w-full justify-center flex flex-wrap  md:justify-start md:flex-nowrap  gap-3.75">
+        {cards
           .filter((card) => {
             return card.section === activeBtn;
           })
-          .map((card, idx) => {
-            return <Card card={card} id={idx} />;
+          .map((card) => {
+            return (
+              <Card
+                card={card}
+                id={card.id}
+                active={card.active}
+                setActive={({ target }) => {
+                  handleBidActive(target);
+                }}
+              />
+            );
           })}
       </div>
     </div>
