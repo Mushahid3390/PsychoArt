@@ -8,7 +8,7 @@ import Banner6 from "../assets/images/Banner6.svg";
 // icons
 import binanceLogo from "../assets/icons/binanceLogo.svg";
 import blockChain from "../assets/icons/blockChain.svg";
-import ethereumLogo from "../assets/icons/bthereumLogo.svg";
+import ethereumLogo from "../assets/icons/ethereumLogo.svg";
 
 //Navbar Content
 import psychoArt from "../assets/icons/psychoArt.svg";
