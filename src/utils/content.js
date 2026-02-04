@@ -1,12 +1,13 @@
-import HeroImage from "../assets/images/HeroImage.svg";
-// icons
-import binanceLogo from "../assets/icons/binanceLogo.svg";
-import blockChain from "../assets/icons/blockChain.svg";
-import ethereumLogo from "../assets/icons/ethereumLogo.svg";
-
 //Navbar Content
 import psychoArt from "../assets/icons/psychoArt.svg";
 import search from "../assets/icons/search.svg";
+
+import HeroImage from "../assets/images/HeroImage.svg";
+// icons
+import blockChain from "../assets/icons/blockChain.svg";
+import binanceLogo from "../assets/icons/binanceLogo.svg";
+import ethereumLogo from "../assets/icons/ethereumLogo.svg";
+
 
 // Collections Image
 import Card1 from "../assets/images/Card1.svg"
