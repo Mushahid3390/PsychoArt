@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Card from "../cards/Card";
-import Creator1 from "../../assets/images/Creator1.svg";
-import Creator2 from "../../assets/images/Creator2.svg";
-import Creator3 from "../../assets/images/Creator3.svg";
-import CreatorImg1 from "../../assets/images/CreatorImg1.svg";
-import CreatorImg2 from "../../assets/images/CreatorImg2.svg";
-import CreatorImg3 from "../../assets/images/CreatorImg3.svg";
+import Creator1 from "/assets/images/Creator1.svg";
+import Creator2 from "/assets/images/Creator2.svg";
+import Creator3 from "/assets/images/Creator3.svg";
+import CreatorImg1 from "/assets/images/CreatorImg1.svg";
+import CreatorImg2 from "/assets/images/CreatorImg2.svg";
+import CreatorImg3 from "/assets/images/CreatorImg3.svg";
 
 const topCreatorContents = {
   cards: [
