@@ -1,28 +1,28 @@
 //Navbar Content
-import psychoArt from "../assets/icons/psychoArt.svg";
-import search from "../assets/icons/search.svg";
+import psychoArt from "/assets/icons/psychoArt.svg";
+import search from "/assets/icons/search.svg";
 
-import HeroImage from "../assets/images/HeroImage.svg";
+import HeroImage from "/assets/images/HeroImage.svg";
 // icons
-import blockChain from "../assets/icons/blockChain.svg";
-import binanceLogo from "../assets/icons/binanceLogo.svg";
-import ethereumLogo from "../assets/icons/ethereumLogo.svg";
+import blockChain from "/assets/icons/blockChain.svg";
+import binanceLogo from "/assets/icons/binanceLogo.svg";
+import ethereumLogo from "/assets/icons/ethereumLogo.svg";
 
 
 // Collections Image
-import Card1 from "../assets/images/Card1.svg"
-import Card2 from "../assets/images/Card2.svg"
-import Card3 from "../assets/images/Card3.svg"
-import Card4 from "../assets/images/Card4.svg"
-import Card5 from "../assets/images/Card5.svg"
-import Card6 from "../assets/images/Card6.svg"
-import Card7 from "../assets/images/Card7.svg"
-import Card8 from "../assets/images/Card8.svg"
-import Card9 from "../assets/images/Card9.svg"
+import Card1 from "/assets/images/Card1.svg"
+import Card2 from "/assets/images/Card2.svg"
+import Card3 from "/assets/images/Card3.svg"
+import Card4 from "/assets/images/Card4.svg"
+import Card5 from "/assets/images/Card5.svg"
+import Card6 from "/assets/images/Card6.svg"
+import Card7 from "/assets/images/Card7.svg"
+import Card8 from "/assets/images/Card8.svg"
+import Card9 from "/assets/images/Card9.svg"
 
-import youtube from "../assets/icons/youtube.svg";
-import discord from "../assets/icons/discord.svg";
-import instagram from "../assets/icons/instagram.svg";
+import youtube from "/assets/icons/youtube.svg";
+import discord from "/assets/icons/discord.svg";
+import instagram from "/assets/icons/instagram.svg";
 
 export const FeaturedArtworkContent = {
     cards: [
