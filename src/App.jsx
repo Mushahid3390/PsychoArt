@@ -14,8 +14,8 @@ import CopyRight from "./components/sections/CopyRight";
 function App() {
   return (
     <>
-      <div className="w-screen bg-linear-to-l from-[#181E41] to-[#984D38]">
-        <div className="px-10 xl:px-30.5 flex flex-col items-center max-w-full xl:max-w-360 mx-auto h-auto pt-2.25 pb-25">
+      <div className="min-w-[320px] w-screen min-h-screen bg-linear-to-tl from-[#181E41] from-30% to-[#984D38] to-100%">
+        <div className="px-8 xl:px-30.5 flex flex-col items-center max-w-full xl:max-w-360 mx-auto h-auto pt-2.25 pb-8 lg:pb-25">
           <Navbar />
           <Home />
           <Sponsored />
@@ -23,12 +23,12 @@ function App() {
           <Collections />
           <FeaturedArtwork />
           <TopCreator />
-          <AskedQuestion/>
-          <CollectNft/>
-          <Footer/>
-          <CopyRight/>
+          <AskedQuestion />
+          <CollectNft />
+          <Footer />
+          <CopyRight />
         </div>
-      </div>  
+      </div>
     </>
   );
 }

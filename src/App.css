@@ -6,3 +6,17 @@
 @theme {
     --breakpoint-xl: 1309px;
 }
+
+.btn-gradient {
+  /* .. */
+   background: linear-gradient(#8b8ea0, #8b8ea0) padding-box,
+               linear-gradient(to top right, #B75CFF, #671AE4) border-box;
+  border-radius: 10px; /* 👈 not working */
+  border: 2px solid transparent;
+}
+
+.text-color{
+    background: linear-gradient(to top right, #B75CFF, #671AE4);
+    background-clip: text;
+    color: transparent;
+}

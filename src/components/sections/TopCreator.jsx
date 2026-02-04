@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from "react";
 import Card from "../cards/Card";
 import Creator1 from "../../assets/images/Creator1.svg";
 import Creator2 from "../../assets/images/Creator2.svg";
@@ -10,18 +10,24 @@ import CreatorImg3 from "../../assets/images/CreatorImg3.svg";
 const topCreatorContents = {
   cards: [
     {
+      id: "1",
+      active: false,
       CardImg: Creator1,
       profileImg: CreatorImg1,
       creatorName: "John Wick",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
+      id: "2",
+      active: false,
       CardImg: Creator2,
       profileImg: CreatorImg2,
       creatorName: "John Wick",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
+      id: "3",
+      active: false,
       CardImg: Creator3,
       profileImg: CreatorImg3,
       creatorName: "John Wick",
@@ -31,22 +37,47 @@ const topCreatorContents = {
 };
 
 const TopCreator = () => {
- return (
-    <div className="w-full flex flex-col mt-50">
+  const [cards, setCards] = useState(topCreatorContents.cards);
+
+  const handleActive = (target) => {
+    const collectionCards = cards.map((card) => {
+      if (card.id == target.id) {
+        card.active = !card.active;
+        return card;
+      }
+      return card;
+    });
+    setCards(collectionCards);
+  };
+
+  return (
+    <div className="w-full flex flex-col mt-15 lg:mt-50">
       <div className="text-center w-full flex flex-col items-center">
-        <h2 className="font-bold text-[40px] text-white">Top Creator</h2>
-        <p className="max-w-105.75 font-medium text-[20px] text-[#FFFFFF80] leading-[120%] mt-2.5">
+        <h2 className="font-bold text-[25px] sm:text-[40px] text-white">
+          Top Creator
+        </h2>
+        <p className="max-w-105.75 font-medium sm:text-[20px] text-[#FFFFFF80] leading-[120%] mt-2.5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
 
-      <div className="w-full flex gap-3.75">
-        {topCreatorContents.cards.map((card, idx) => {
-          return <Card card={card} id={idx} varient={"profile"} />;
+      <div className="w-full flex-wrap justify-center md:justify-start md:flex-nowrap flex gap-3.75">
+        {cards.map((card) => {
+          return (
+            <Card
+              card={card}
+              id={card.id}
+              varient={"profile"}
+              active={card.active}
+              setActive={({ target }) => {
+                handleActive(target);
+              }}
+            />
+          );
         })}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TopCreator
+export default TopCreator;
