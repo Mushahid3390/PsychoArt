@@ -20,3 +20,8 @@
     background-clip: text;
     color: transparent;
 }
+
+.sidebar-none::-webkit-scrollbar {
+    display: none;
+    overflow-y: auto;
+}
