@@ -228,14 +228,46 @@ export const askedQuestionContent = {
   sectionTitle: "Frequently Asked Question",
   SectionDesceiption: "Wanna Ask Something",
   questions: [
-    "Lorem ipsum ipsum ?",
-    "Lorem ipsum ipsum ?",
-    "Lorem ipsum ipsum ?",
-    "Lorem ipsum ipsum ?",
-    "Lorem ipsum ipsum ?",
-    "Lorem ipsum ipsum ?",
-    "Lorem ipsum ipsum ?",
-    "Lorem ipsum ipsum ?",
+    {
+      id: "1",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
+    {
+      id: "2",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
+    {
+      id: "3",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
+    {
+      id: "4",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
+    {
+      id: "5",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
+    {
+      id: "6",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
+    {
+      id: "7",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
+    {
+      id: "8",
+      Ques:"Lorem ipsum ipsum ?",
+      ans: "the answere you are tring to find out Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse excepturi quibusdam temporibus sunt vel possimus nisi, modi maiores quos veritatis vero quidem, quasi commodi est perferendis numquam consequuntur molestias!Omnis inventore dolorum esse aliquid rem provident et ex veritatis officia tempora unde ea totam tempore ad quibusdam neque quidem porro quas consectetur maxime minus enim, sapiente repellat nemo! Eni Nobis minus optio quas placeat tempora dolore molestias modi laboriosam unde delectus maiores atque consequatur a minima, ut totam, itaque earum aut aliquid error! Minima iste sed animi quam nulla. you are never gonna know"
+    },
   ],
 };
 

@@ -14,7 +14,7 @@ import CopyRight from "./components/sections/CopyRight";
 function App() {
   return (
     <>
-      <div className="min-w-[320px] w-screen min-h-screen bg-linear-to-tl from-[#181E41] from-30% to-[#984D38] to-100%">
+      <div className="bg-linear-to-tl from-[#181E41] from-30% to-[#984D38] to-100%">
         <div className="px-8 xl:px-30.5 flex flex-col items-center max-w-full xl:max-w-360 mx-auto h-auto pt-2.25 pb-8 lg:pb-25">
           <Navbar />
           <Home />
