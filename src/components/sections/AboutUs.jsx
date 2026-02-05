@@ -1,4 +1,4 @@
-import AboutImg from "/assets/images/AboutImg.svg";
+import AboutImg from "/assets/images/AboutImg.webp";
 import Button from "../buttons/Button";
 import { aboutUsContent } from "../../utils/content";
 

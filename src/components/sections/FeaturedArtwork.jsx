@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Card from "../cards/Card";
-import Card1 from "/assets/images/Card1.svg";
-import Card2 from "/assets/images/Card2.svg";
-import Card3 from "/assets/images/Card3.svg";
+import Card1 from "/assets/images/Card1.webp";
+import Card2 from "/assets/images/Card2.webp";
+import Card3 from "/assets/images/Card3.webp";
 
 const FeaturedArtworkContent = {
   cards: [
