@@ -62,7 +62,7 @@ const FeaturedArtwork = () => {
     <div className="mt-15 lg:mt-50 w-full flex flex-col gap-7.5">
       <div className="text-center w-full flex flex-col items-center">
         <h2 className="font-bold text-[25px] sm:text-[40px] text-white">
-          Featured Artwork
+          Featured Artworks
         </h2>
         <p className="max-w-105.75 font-medium sm:text-[20px] text-[#FFFFFF80] leading-[120%] mt-2.5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.

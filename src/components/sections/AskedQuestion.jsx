@@ -27,9 +27,9 @@ const AskedQuestion = () => {
                   className={`border-b mb-12.5 border-b-[#FFFFFF80]`}
                 >
                   <div className="flex justify-between pb-5 " key={idx}>
-                    <p>{question.Ques}</p>
+                    <p className="font-medium text-[16px] sm:text-[20px] text-[#FFFFFF80]">{question.Ques}</p>
                     {toggleId === question.id ? (<span
-                      className="cursor-pointer"
+                      className="cursor-pointer  font-medium text-[16px] sm:text-[20px] text-[#FFFFFF80]"
                       onClick={({ target }) => {
                        setToggleId("");
                       }}
@@ -37,7 +37,7 @@ const AskedQuestion = () => {
                     >
                     -
                     </span>) : <span
-                      className="cursor-pointer"
+                      className="cursor-pointer font-medium text-[16px] sm:text-[20px] text-[#FFFFFF80]"
                       onClick={({ target }) => {
                         handleToggle(target);
                       }}
@@ -66,9 +66,9 @@ const AskedQuestion = () => {
                   className={`w-full border-b mb-12.5 border-b-[#FFFFFF80] `}
                 >
                   <div className="flex justify-between pb-5 " key={idx}>
-                    <p>{question.Ques}</p>
+                    <p className="font-medium text-[16px] sm:text-[20px] text-[#FFFFFF80]">{question.Ques}</p>
                      {toggleId === question.id ? (<span
-                      className="cursor-pointer"
+                      className="cursor-pointer font-medium text-[16px] sm:text-[20px] text-[#FFFFFF80]"
                       onClick={({ target }) => {
                        setToggleId("");
                       }}
@@ -76,7 +76,7 @@ const AskedQuestion = () => {
                     >
                     -
                     </span>) : <span
-                      className="cursor-pointer"
+                      className="cursor-pointer font-medium text-[16px] sm:text-[20px] text-[#FFFFFF80]"
                       onClick={({ target }) => {
                         handleToggle(target);
                       }}

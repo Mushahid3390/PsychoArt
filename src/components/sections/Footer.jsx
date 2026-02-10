@@ -1,25 +1,24 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { footerContent } from "../../utils/content";
 
 const Footer = () => {
   return (
-    <div className="lg:mt-50 mt-15 grid grid-cols-1 lg:grid-flow-col sm:grid-cols-2 gap-10 sm:gap-15 lg:gap-32.75 *:font-bold *:text-[20px] *:text-white w-full">
-      <div className="flex flex-col gap-5">
+    <div className="lg:mt-50 mt-15 grid-cols-1 grid gap-10 sm:grid-cols-2 sm:gap-25 lg:grid-cols-none lg:auto-cols-max lg:grid-flow-col lg:gap-0 justify-between *:font-bold *:text-[20px] *:text-white w-full">
+      <div className="inline-flex items-start w-fit flex-col gap-5">
         <h1>
           <img
-            className=""
+            className="max-w-[107px] w-full h-7.5"
             src={footerContent.projectDetails.projectName}
-            atl="logo"
+            alt="logo"
           />
         </h1>
-        <p className="font-medium max-w-[288px] text-[15px] text-[#FFFFFF80]">
+        <p className="font-medium max-w-[288px] w-full text-[15px] text-[#FFFFFF80]">
           {footerContent.projectDetails.projectOverView}
         </p>
       </div>
       {footerContent?.about && (
-        <div className="flex flex-col gap-5">
-          <h1>About</h1>
+        <div className="inline-flex items-start w-fit flex-col gap-5">
+          <h1 >About</h1>
           {footerContent.about.map((page, idx) => {
             return (
               <Link
@@ -34,9 +33,9 @@ const Footer = () => {
       )}
 
       {footerContent?.company && (
-        <div className="flex flex-col gap-5">
-          <h1>Company</h1>
-          {footerContent.about.map((page, idx) => {
+        <div className="inline-flex items-start w-fit flex-col gap-5">
+          <h1 className="">Company</h1>
+          {footerContent.company.map((page, idx) => {
             return (
               <Link
                 className="font-medium hover:text-white text-[15px] text-[#FFFFFF80]"
@@ -50,8 +49,8 @@ const Footer = () => {
       )}
 
       {footerContent?.contact && (
-        <div className="flex flex-col gap-5">
-          <h1>Contact</h1>
+        <div className="inline-flex items-start w-fit flex-col gap-5">
+          <h1 className="">Contact</h1>
           <p className="hover:text-white font-medium text-[15px] text-[#FFFFFF80]">
             {footerContent.contact.phoneNumber}
           </p>

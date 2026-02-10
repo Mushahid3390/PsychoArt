@@ -11,25 +11,25 @@ const AboutUs = () => {
             {aboutUsContent.section}
           </h2>
         )}
-        <p className="font-medium mt-2.5 text-[16px] lg:text-[20px] leading-[120%] text-center text-[#FFFFFF80]">
+        <p className="font-medium max-w-105.75 mx-auto mt-2.5 text-[16px] lg:text-[20px] leading-[120%] text-center text-[#FFFFFF80]">
           {aboutUsContent.sectionDescription}
         </p>
       </div>
 
-      <div className="flex items-center lg:items-start  flex-col lg:flex-row gap-10 lg:gap-30">
+      <div className="flex items-center lg:items-start  flex-col lg:flex-row gap-10 lg:gap-29">
         <img
           className="w-122.5 lg:h-150 object-center object-cover"
           src={AboutImg}
           alt="img"
         />
-        <div className="flex justify-center items-center lg:items-start lg:my-auto flex-col rounded-2.5">
+        <div className="flex justify-center items-center lg:items-start lg:my-auto flex-col max-w-147 w-full rounded-2.5">
           <h2 className="font-bold text-center lg:text-start text-[20px] lg:text-3xl leading-[100%] text-[#FFFFFF]">
             {aboutUsContent.tittle}
           </h2>
           <p className="max-w-147 font-medium text-center lg:text-start text-[16px] lg:text-[20px] leading-[180%] text-[#FFFFFF80] mt-2.5">
             {aboutUsContent.Description}
           </p>
-          <Button label="Show more" style={"text-white mt-7.5 w-fit"} />
+          <Button label="Show more" varient="gradient" style={"text-white font-medium text-[20px] px-5 py-2.5 mt-7.5 w-fit"} />
         </div>
       </div>
     </div>
