@@ -11,14 +11,14 @@ const Navbar = () => {
     setActive(!active);
   };
   return (
-    <div className="relative w-full flex justify-between items-center">
+    <div className="relative w-full flex justify-between gap-5 items-center">
       <img
         src={navbarContent.logo.psychoArt}
         alt={navbarContent.logo.alt}
-        className="font-bold h-6.25"
+        className="w-full max-w-33.25 h-9.5 font-bold"
       />
 
-      <div className="hidden lg:block md:w-[384px] py-2.5 pl-2.5 pr-13 rounded-[10px] font-medium bg-[#FFFFFF1A] ">
+      <div className="hidden lg:block md:max-w-[384px] md:w-full py-2.5 pl-2.5 pr-13 rounded-[10px] font-medium bg-[#FFFFFF1A] ">
         <div className="flex gap-2 justify-start items-center">
           <img
             src={navbarContent.icons.magnifyingGlass}
@@ -26,14 +26,14 @@ const Navbar = () => {
             className="text-[#FFFFFF] lg:h-4 xl:w-5 xl:h-5"
           />
           <input
-            className="text-[18px] md:text-[20px] text-[#FFFFFF] w-74.5  outline-none"
+            className="text-[18px] md:text-[20px] text-[#FFFFFF] w-73  outline-none"
             type="text"
             placeholder="Search items and collections"
           />
         </div>
       </div>
 
-      <div className={`hidden lg:block p-2.5`}>
+      <div className={`hidden lg:block max-w-135.25 max-h-17.5 w-full p-2.5`}>
         <div className="flex items-center gap-5 xl:gap-10 text-[18px] xl:text-[20px] font-medium [&>*:not(.no-hover)]:hover:text-blue-500 text-[#FFFFFF]">
           {navbarContent.navigations.map((navigator, idx) => {
             return (

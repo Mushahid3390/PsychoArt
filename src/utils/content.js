@@ -170,9 +170,9 @@ export const collectionsContent = {
 };
 
 export const icons = [
-  { src: binanceLogo, alt: "Binance_logo", style: "aspect-5/1" },
-  { src: ethereumLogo, alt: "EthereumLogo", style: "aspect-16/5" },
-  { src: blockChain, alt: "Blockchain", style: "aspect-33/5" },
+  { src: binanceLogo, alt: "Binance_logo", style: "w-22.5 sm:w-45 md:w-55 lg:w-[300px]" },
+  { src: ethereumLogo, alt: "EthereumLogo", style: "w-22.5 sm:w-45 md:w-55 lg:w-[192px]"},
+  { src: blockChain, alt: "Blockchain", style: "w-22.5 sm:w-45 md:w-55 lg:w-[396px]"},
 ];
 
 export const navbarContent = {
@@ -183,12 +183,12 @@ export const navbarContent = {
   icons: { magnifyingGlass: search, alt: "searchIcon" },
   navigations: [
     { name: "Collections", style: "" },
-    { name: "Features", style: "" },
+    { name: "Feature", style: "" },
     { name: "FAQ", style: "" },
     {
       name: "Select Wallet",
       style:
-        "no-hover py-2.5 hover:opacity-85 active:scale-98 px-5 rounded-[10px] bg-linear-to-t from-[#B75CFF] to-[#671AE4]",
+        "text-nowrap no-hover py-2.5 hover:opacity-85 active:scale-98 px-5 font-medium text-[20px]! rounded-[10px] bg-linear-to-t from-[#B75CFF] to-[#671AE4]",
     },
   ],
 };

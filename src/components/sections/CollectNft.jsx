@@ -4,7 +4,7 @@ const CollectNft = () => {
   return (
     <div className="w-full flex flex-col items-center mt-15 lg:mt-50 py-5 sm:py-12.5 bg-linear-to-tr from-[#671AE4] to-[#B75CFF]">
       <h1 className="font-bold max-w-124.5 text-center text-3xl sm:text-[50px] text-white">
-        Get ready to collectour NFT
+        Get ready to collect our NFT
       </h1>
       <Button
         label={"Get Started"}

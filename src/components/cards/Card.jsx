@@ -47,7 +47,7 @@ const Card = ({ card, id, varient = "default", active, setActive }) => {
             src={card.img}
             className="lg:w-84.25 md:h-50 lg:h-95 rounded-[10px] mb-5 object-center object-cover"
           />
-          <div className="flex justify-between mb-5.75 w-full">
+          <div className="flex justify-between gap-5 mb-5.75 w-full">
             <div>
               <p className="font-medium text-[18px] sm:text-[20px] mb-2.5 text-[#FFFFFF80]">
                 {card.owner}
